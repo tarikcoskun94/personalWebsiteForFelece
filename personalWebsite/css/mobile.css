@@ -1,0 +1,42 @@
+/* START --- HEADER AND NAV */
+
+#mainHeader
+{
+    padding: 0.2rem 0;
+}
+
+#mainHeader #headerHolder
+{
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+    height: 5rem;
+}
+
+/* END --- HEADER AND NAV */
+
+
+/* START --- MYINFO SECTION */
+
+#myInfo
+{
+    padding-top: 7rem;
+}
+
+/* END --- MYINFO SECTION */
+
+#courses #courseHolder article
+{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid grey;
+}
+
+#courses #courseHolder article:last-child
+{
+    border-bottom: none;
+}
+
+/* START --- COURSES SECTION */

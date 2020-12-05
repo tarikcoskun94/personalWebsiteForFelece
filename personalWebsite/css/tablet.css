@@ -1,0 +1,14 @@
+/* START --- TRAININGS SECTION */
+
+#trainings #trainingHolder
+{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#trainings #trainingHolder article
+{
+    padding: 0.5rem;
+}
+
+/* END --- TRAININGS SECTION */

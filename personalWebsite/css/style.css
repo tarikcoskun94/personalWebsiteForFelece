@@ -1,0 +1,292 @@
+/* START --- HEADER AND NAV */
+
+#mainHeader
+{
+    background-color: rgb(5, 64, 119);
+    border-bottom: 3px solid  rgb(8, 57, 104);
+    color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
+}
+
+#mainHeader #headerHolder
+{
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    height: 3rem;
+    align-items: center;
+}
+
+#mainHeader #headerHolder h1
+{
+    font-size: 1.2rem;
+}
+
+#mainHeader #headerHolder nav ul
+{
+    list-style-type: none;
+    align-items: center;
+}
+
+#mainHeader #headerHolder nav ul li a
+{
+    color: white;
+    padding: 0.5rem 0.75rem;
+
+    transition: 150ms;
+    -moz-transition: 150ms;
+    -o-transition: 150ms;
+    -webkit-transition: 150ms;
+}
+
+#mainHeader #headerHolder nav ul li a:hover
+{
+    color: rgb(5, 64, 119);
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* END --- HEADER AND NAV */
+
+
+/* START --- MYINFO SECTION */
+
+#myInfo
+{
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
+}
+
+#myInfo .pageLimiter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myInfo img
+{
+    border-radius: 100%;
+    width: 18vw;
+    min-width: 150px;
+    max-width: 300px;
+}
+
+#myInfo h2
+{
+    margin-top: 0.5rem;
+}
+
+#myInfo h5
+{
+    margin-top: 0.25rem;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#myInfo a
+{
+    display: inline-block;
+    background-color: rgb(5, 64, 119);
+    color: white;
+    margin-top: 2rem;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+
+    transition: 150ms;
+    -moz-transition: 150ms;
+    -o-transition: 150ms;
+    -webkit-transition: 150ms;
+}
+
+#myInfo a:hover
+{
+    padding: 0.6rem 5rem;
+}
+
+/* END --- MYINFO SECTION */
+
+
+/* START --- TRAININGS SECTION */
+
+#trainings
+{
+    background-color: rgb(5, 64, 119);
+    padding: 1rem 0;
+    font-size: 0.85rem;
+    color: white;
+    width: 100%;
+}
+
+#trainings #trainingHolder
+{
+    margin-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#trainings #trainingHolder article
+{
+    text-align: center;
+    flex: 0.25;
+}
+
+#trainings #trainingHolder article header
+{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+#trainings #trainingHolder article header p
+{
+    font-weight: bold;
+}
+
+/* END --- TRAININGS SECTION */
+
+
+/* START --- COURSES SECTION */
+
+#courses
+{
+    padding: 1rem 0;
+}
+
+#courses #courseHolder
+{
+    margin-top: 1rem;
+    padding: 0 1rem;
+    align-items: stretch;
+}
+
+#courses #courseHolder article
+{
+    padding: 0.5rem 0;
+    align-items: center;
+}
+
+#courses #courseHolder article .courseCoverImage
+{
+    margin-right: 1rem;
+    position: relative;
+}
+
+#courses #courseHolder article .courseCoverImage span
+{
+    background-color: red;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    top: 10px;
+    left: 0;
+    position: absolute;
+    border: 3px solid grey;
+    color: white;
+    font-weight: bold;
+}
+
+#courses #courseHolder article .courseCoverImage img
+{
+    height: 20vh;
+    width: 20vh;
+    min-height: 85px;
+    min-width: 85px;
+    border: 3px solid grey;
+    border-radius: 100%;
+}
+
+#courses #courseHolder article .courseInformation header
+{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 0.90rem;
+}
+
+#courses #courseHolder article .courseInformation .courseExplanation
+{
+    font-size: 0.90rem;
+    margin-bottom: 0.5rem;
+    color: grey;
+}
+
+#courses #courseHolder article .courseInformation .courseInstructor,
+#courses #courseHolder article .courseInformation .courseScore
+{
+    font-size: 0.70rem;
+    color: grey;
+}
+
+/* END --- COURSES SECTION */
+
+
+/* START --- FOOTER */
+
+footer
+{
+    background-color: rgb(5, 64, 119);
+    align-items: center;
+    padding: 1rem 0;
+}
+
+footer #contactForm h3
+{
+    color: white;
+}
+
+footer #contactForm form
+{
+    margin: 1rem 0;
+}
+
+footer #contactForm form button
+{
+    padding:0.5rem;
+    width: 70vw;
+    max-width: 768px;
+    border-radius: 5px;
+}
+
+footer #contactForm form .formItem
+{
+    margin-bottom: 1rem;
+}
+
+footer #contactForm form .formItem label
+{
+    display: block;
+    color: white;
+}
+
+footer #contactForm form .formItem input,
+footer #contactForm form .formItem textarea
+{
+    padding:0.5rem;
+    width: 70vw;
+    max-width: 768px;
+    resize: none;
+    border-radius: 5px;
+}
+
+footer #socialMedias ul
+{
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    min-width: 130px;
+    max-width: 250px;
+}
+
+footer #socialMedias ul li
+{
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+footer #socialMedias ul li a
+{
+    color: white;
+}
+
+/* END --- FOOTER */
